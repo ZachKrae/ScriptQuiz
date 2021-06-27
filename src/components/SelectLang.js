@@ -23,21 +23,15 @@ function SelectLang(props) {
             <div className="Game-grid">
                 <div>
                     <button onClick={() => selectAnAlph(Arabic)}>Arabic</button>
-                    <button onClick={() => selectAnAlph(Greek)}>Greek</button>
-                    <button onClick={() => selectAnAlph(Persian)}>Persian</button>  
-                </div>
-                <div>
                     <button onClick={() => selectAnAlph(Armenian)}>Armenian</button>
-                    <button onClick={() => selectAnAlph(Hebrew)}>Hebrew</button>
-                    <button onClick={() => selectAnAlph(Tibetan)}>Tibetan (Wylie)</button>
-                </div>
-                <div>
-                    <button onClick={() => selectAnAlph(RusCyrillic)}>Cyrillic (Russian)</button>
-                    <button onClick={() => selectAnAlph(Hiragana)}>Japanese (Hiragana)</button>
-                </div>
-                <div>
                     <button onClick={() => selectAnAlph(Georgian)}>Georgian (Mkhedruli)</button>
-                    <button onClick={() => selectAnAlph(Katakana)}>Japanese (Katakana)</button>    
+                    <button onClick={() => selectAnAlph(Greek)}>Greek</button>
+                    <button onClick={() => selectAnAlph(Hebrew)}>Hebrew</button>
+                    <button onClick={() => selectAnAlph(Hiragana)}>Japanese (Hiragana)</button>
+                    <button onClick={() => selectAnAlph(Katakana)}>Japanese (Katakana)</button>
+                    <button onClick={() => selectAnAlph(Persian)}>Persian</button>
+                    <button onClick={() => selectAnAlph(RusCyrillic)}>Cyrillic (Russian)</button>
+                    <button onClick={() => selectAnAlph(Tibetan)}>Tibetan (Wylie)</button>
                 </div>
             </div>
         </div>

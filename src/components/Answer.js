@@ -7,7 +7,9 @@ function Answer(props) {
 
     return (
         <div onClick={play}>
-            <button className='answer-button' onClick={() => props.handleAnswerButtonClick(props.latinLetter)}>{props.latinLetter}</button>
+            <button className='answer-button' onClick={() => props.handleAnswerButtonClick(props.latinLetter)}>
+                {props.latinLetter}
+            </button>
         </div>
     )
 }
