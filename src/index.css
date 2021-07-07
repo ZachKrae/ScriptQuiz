@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  background-color: #7cc6fe;
+  background-color: #7d8ff1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,10 +82,15 @@ button {
   border-radius: 15px;
   display: flex;
   padding: 5px;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   border: 5px solid #234668;
   cursor: pointer;
+}
+
+button.selecter-btn {
+  width: 48%;
+  display: inline-block;
 }
 
 .correct {
@@ -107,4 +112,17 @@ button {
 
 button svg {
   margin-right: 5px;
+}
+
+hr.solid {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+.game-grid {
+  display: grid;
+}
+
+.selecter-btn:hover {
+  background-color: #555e7d;
 }

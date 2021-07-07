@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import Answer from './Answer';
 
 export default function Game(props) {
@@ -20,42 +20,24 @@ export default function Game(props) {
 	const [answeredQs, setAnsweredQs] = useState(0);
 	const [selectedAnswer, setSelectedAnswer] = useState("");
 
-	//pasted in
-	const answers = () => {		
+	
+	const handleAnswerButtonClick = (picked) => {
+		setSelectedAnswer(picked);
+	};
+
+	//shuffles the answers for each question
+	var shuffle = require('shuffle-array')
+	const shuffledAnswers = useMemo(() => {
 		var answerKey = [
 			<Answer key={1} handleAnswerButtonClick={handleAnswerButtonClick} latinLetter={props.alphabet[currentQuestion].latin} sound={props.alphabet[currentQuestion].sound} />,
 			<Answer key={2} handleAnswerButtonClick={handleAnswerButtonClick} latinLetter={props.alphabet[pickedTwo].latin} sound={props.alphabet[pickedTwo].sound} />,
 			<Answer key={3} handleAnswerButtonClick={handleAnswerButtonClick} latinLetter={props.alphabet[pickedThree].latin} sound={props.alphabet[pickedThree].sound} />,
 			<Answer key={4} handleAnswerButtonClick={handleAnswerButtonClick} latinLetter={props.alphabet[pickedFour].latin} sound={props.alphabet[pickedFour].sound} />
 		]
+		return shuffle(answerKey);
+	}, [currentQuestion, pickedFour, pickedThree, pickedTwo, props.alphabet, shuffle])
 
-		// var shuffle = require('shuffle-array')
-		// shuffle(answerKey)
-
-		const uniqueAns = [];
-		while(uniqueAns.length < 4){
-			var nest = Math.floor(Math.random() * Math.floor(4));
-			if(uniqueAns.indexOf(nest) === -1) uniqueAns.push(nest);
-		}
-		
-		return (
-			<div>
-				{answerKey[uniqueAns[0]]}
-				{answerKey[uniqueAns[1]]}
-				{answerKey[uniqueAns[2]]}
-				{answerKey[uniqueAns[3]]}
-			</div>
-			)
-	}
-	//
-
-
-
-
-	const handleAnswerButtonClick = (picked) => {
-		setSelectedAnswer(picked);
-	};
-
+	//evaluates if selected answer is correct or incorrect
 	const evalAnswer = (ans) => {
 		const nextQuestion = Math.floor(Math.random() * props.alphabet.length);
 		if (ans === props.alphabet[currentQuestion].latin) {
@@ -77,10 +59,12 @@ export default function Game(props) {
 		}
 	};
 
+	//end game ans show score
 	const finishGame = () => {
 		setShowScore(true);
 	}
 
+	//restarts game with previously selected writing system
 	const restartGame = () => {
 		setShowScore(false);
 		setCurrentQuestion(0);
@@ -88,6 +72,7 @@ export default function Game(props) {
 		setAnsweredQs(0);
 	};
 
+	//ends game and returns to selection menu
     const backToMenu = () => {
         props.setAlphIsPicked(false);
 		setAnsweredQs(0);
@@ -104,15 +89,18 @@ export default function Game(props) {
 				<div>
 					<div className='question-section'>
 						<div className='question-count'>
-							<span>Question {currentQuestion + 1}</span>/{props.alphabet.length}
+							<span>Question {answeredQs + 1}</span>
 						</div>
 						<div>Match the letter with its latin equivalent:</div>
 						<div className='question-text'>{props.alphabet[currentQuestion].name}</div>
-						<button onClick = {() => evalAnswer(selectedAnswer)}>Submit</button>
-						<button onClick = {() => finishGame()}>Finish Game</button>
 					</div>
 					<div className='answer-section'>
-						{answers()}
+						{shuffledAnswers}
+					</div>
+					<hr class="solid"></hr>
+					<div>
+						<button class="selecter-btn" onClick = {() => evalAnswer(selectedAnswer)}>Submit</button>
+						<button class="selecter-btn" onClick = {() => finishGame()}>Finish Game</button>
 					</div>
 				</div>
 			)}
