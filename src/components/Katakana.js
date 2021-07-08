@@ -1,110 +1,112 @@
-import katakana1 from '../voiceclips/japanese/japanese-1-a.mp3';
-import katakana2 from '../voiceclips/japanese/japanese-2-i.mp3';
-import katakana3 from '../voiceclips/japanese/japanese-3-u.mp3';
-import katakana4 from '../voiceclips/japanese/japanese-4-e.mp3';
-import katakana5 from '../voiceclips/japanese/japanese-5-o.mp3';
-import katakana6 from '../voiceclips/japanese/japanese-6-ka.mp3';
-import katakana7 from '../voiceclips/japanese/japanese-7-ki.mp3';
-import katakana8 from '../voiceclips/japanese/japanese-8-ku.mp3';
-import katakana9 from '../voiceclips/japanese/japanese-9-ke.mp3';
-import katakana10 from '../voiceclips/japanese/japanese-10-ko.mp3';
-import katakana11 from '../voiceclips/japanese/japanese-11-kya.mp3';
-import katakana12 from '../voiceclips/japanese/japanese-12-kyu.mp3';
-import katakana13 from '../voiceclips/japanese/japanese-13-kyo.mp3';
-import katakana14 from '../voiceclips/japanese/japanese-14-sa.mp3';
-import katakana15 from '../voiceclips/japanese/japanese-15-shi.mp3';
-import katakana16 from '../voiceclips/japanese/japanese-16-su.mp3';
-import katakana17 from '../voiceclips/japanese/japanese-17-se.mp3';
-import katakana18 from '../voiceclips/japanese/japanese-18-so.mp3';
-import katakana19 from '../voiceclips/japanese/japanese-19-sha.mp3';
-import katakana20 from '../voiceclips/japanese/japanese-20-shu.mp3';
-import katakana21 from '../voiceclips/japanese/japanese-21-sho.mp3';
-import katakana22 from '../voiceclips/japanese/japanese-22-ta.mp3';
-import katakana23 from '../voiceclips/japanese/japanese-23-chi.mp3';
-import katakana24 from '../voiceclips/japanese/japanese-24-tsu.mp3';
-import katakana25 from '../voiceclips/japanese/japanese-25-te.mp3';
-import katakana26 from '../voiceclips/japanese/japanese-26-to.mp3';
-import katakana27 from '../voiceclips/japanese/japanese-27-cha.mp3';
-import katakana28 from '../voiceclips/japanese/japanese-28-chu.mp3';
-import katakana29 from '../voiceclips/japanese/japanese-29-cho.mp3';
-import katakana30 from '../voiceclips/japanese/japanese-30-na.mp3';
-import katakana31 from '../voiceclips/japanese/japanese-31-ni.mp3';
-import katakana32 from '../voiceclips/japanese/japanese-32-nu.mp3';
-import katakana33 from '../voiceclips/japanese/japanese-33-ne.mp3';
-import katakana34 from '../voiceclips/japanese/japanese-34-no.mp3';
-import katakana35 from '../voiceclips/japanese/japanese-35-nya.mp3';
-import katakana36 from '../voiceclips/japanese/japanese-36-nyu.mp3';
-import katakana37 from '../voiceclips/japanese/japanese-37-nyo.mp3';
-import katakana38 from '../voiceclips/japanese/japanese-38-ha.mp3';
-import katakana39 from '../voiceclips/japanese/japanese-39-hi.mp3';
-import katakana40 from '../voiceclips/japanese/japanese-40-fu.mp3';
-import katakana41 from '../voiceclips/japanese/japanese-41-he.mp3';
-import katakana42 from '../voiceclips/japanese/japanese-42-ho.mp3';
-import katakana43 from '../voiceclips/japanese/japanese-43-hya.mp3';
-import katakana44 from '../voiceclips/japanese/japanese-44-hyu.mp3';
-import katakana45 from '../voiceclips/japanese/japanese-45-hyo.mp3';
-import katakana46 from '../voiceclips/japanese/japanese-46-ma.mp3';
-import katakana47 from '../voiceclips/japanese/japanese-47-mi.mp3';
-import katakana48 from '../voiceclips/japanese/japanese-48-mu.mp3';
-import katakana49 from '../voiceclips/japanese/japanese-49-me.mp3';
-import katakana50 from '../voiceclips/japanese/japanese-50-mo.mp3';
-import katakana51 from '../voiceclips/japanese/japanese-51-mya.mp3';
-import katakana52 from '../voiceclips/japanese/japanese-52-myu.mp3';
-import katakana53 from '../voiceclips/japanese/japanese-53-myo.mp3';
-import katakana54 from '../voiceclips/japanese/japanese-54-ya.mp3';
-import katakana55 from '../voiceclips/japanese/japanese-55-yu.mp3';
-import katakana56 from '../voiceclips/japanese/japanese-56-yo.mp3';
-import katakana57 from '../voiceclips/japanese/japanese-57-ra.mp3';
-import katakana58 from '../voiceclips/japanese/japanese-58-ri.mp3';
-import katakana59 from '../voiceclips/japanese/japanese-59-ru.mp3';
-import katakana60 from '../voiceclips/japanese/japanese-60-re.mp3';
-import katakana61 from '../voiceclips/japanese/japanese-61-ro.mp3';
-import katakana62 from '../voiceclips/japanese/japanese-62-rya.mp3';
-import katakana63 from '../voiceclips/japanese/japanese-63-ryu.mp3';
-import katakana64 from '../voiceclips/japanese/japanese-64-ryo.mp3';
-import katakana65 from '../voiceclips/japanese/japanese-65-wa.mp3';
-import katakana66 from '../voiceclips/japanese/japanese-66-wi.mp3';
-import katakana67 from '../voiceclips/japanese/japanese-67-we.mp3';
-import katakana68 from '../voiceclips/japanese/japanese-68-wo.mp3';
-import katakana69 from '../voiceclips/japanese/japanese-69-n.mp3';
-import katakana70 from '../voiceclips/japanese/japanese-70-ga.mp3';
-import katakana71 from '../voiceclips/japanese/japanese-71-gi.mp3';
-import katakana72 from '../voiceclips/japanese/japanese-72-gu.mp3';
-import katakana73 from '../voiceclips/japanese/japanese-73-ge.mp3';
-import katakana74 from '../voiceclips/japanese/japanese-74-go.mp3';
-import katakana75 from '../voiceclips/japanese/japanese-75-gya.mp3';
-import katakana76 from '../voiceclips/japanese/japanese-76-gyu.mp3';
-import katakana77 from '../voiceclips/japanese/japanese-77-gyo.mp3';
-import katakana78 from '../voiceclips/japanese/japanese-78-za.mp3';
-import katakana79 from '../voiceclips/japanese/japanese-79-ji.mp3';
-import katakana80 from '../voiceclips/japanese/japanese-80-zu.mp3';
-import katakana81 from '../voiceclips/japanese/japanese-81-ze.mp3';
-import katakana82 from '../voiceclips/japanese/japanese-82-zo.mp3';
-//83-85 use clips 91-93
-import katakana86 from '../voiceclips/japanese/japanese-86-da.mp3';
-import katakana87 from '../voiceclips/japanese/japanese-87-ji.mp3';
-import katakana88 from '../voiceclips/japanese/japanese-88-dzu.mp3';
-import katakana89 from '../voiceclips/japanese/japanese-89-de.mp3';
-import katakana90 from '../voiceclips/japanese/japanese-90-do.mp3';
-import katakana91 from '../voiceclips/japanese/japanese-91-ja.mp3';
-import katakana92 from '../voiceclips/japanese/japanese-92-ju.mp3';
-import katakana93 from '../voiceclips/japanese/japanese-93-jo.mp3';
-import katakana94 from '../voiceclips/japanese/japanese-94-ba.mp3';
-import katakana95 from '../voiceclips/japanese/japanese-95-bi.mp3';
-import katakana96 from '../voiceclips/japanese/japanese-96-bu.mp3';
-import katakana97 from '../voiceclips/japanese/japanese-97-be.mp3';
-import katakana98 from '../voiceclips/japanese/japanese-98-bo.mp3';
-import katakana99 from '../voiceclips/japanese/japanese-99-bya.mp3';
-import katakana100 from '../voiceclips/japanese/japanese-100-byu.mp3';
-import katakana101 from '../voiceclips/japanese/japanese-101-byo.mp3';
-import katakana102 from '../voiceclips/japanese/japanese-102-pa.mp3';
-import katakana103 from '../voiceclips/japanese/japanese-103-pi.mp3';
-import katakana104 from '../voiceclips/japanese/japanese-104-pu.mp3';
-import katakana105 from '../voiceclips/japanese/japanese-105-pe.mp3';
-import katakana106 from '../voiceclips/japanese/japanese-106-po.mp3';
-import katakana107 from '../voiceclips/japanese/japanese-107-pya.mp3';
-import katakana108 from '../voiceclips/japanese/japanese-108-pyu.mp3';
-import katakana109 from '../voiceclips/japanese/japanese-109-pyo.mp3';
+import katakana1 from '../voiceclips/japanese/japanese-1.mp3';
+import katakana2 from '../voiceclips/japanese/japanese-2.mp3';
+import katakana3 from '../voiceclips/japanese/japanese-3.mp3';
+import katakana4 from '../voiceclips/japanese/japanese-4.mp3';
+import katakana5 from '../voiceclips/japanese/japanese-5.mp3';
+import katakana6 from '../voiceclips/japanese/japanese-6.mp3';
+import katakana7 from '../voiceclips/japanese/japanese-7.mp3';
+import katakana8 from '../voiceclips/japanese/japanese-8.mp3';
+import katakana9 from '../voiceclips/japanese/japanese-9.mp3';
+import katakana10 from '../voiceclips/japanese/japanese-10.mp3';
+import katakana11 from '../voiceclips/japanese/japanese-11.mp3';
+import katakana12 from '../voiceclips/japanese/japanese-12.mp3';
+import katakana13 from '../voiceclips/japanese/japanese-13.mp3';
+import katakana14 from '../voiceclips/japanese/japanese-14.mp3';
+import katakana15 from '../voiceclips/japanese/japanese-15.mp3';
+import katakana16 from '../voiceclips/japanese/japanese-16.mp3';
+import katakana17 from '../voiceclips/japanese/japanese-17.mp3';
+import katakana18 from '../voiceclips/japanese/japanese-18.mp3';
+import katakana19 from '../voiceclips/japanese/japanese-19.mp3';
+import katakana20 from '../voiceclips/japanese/japanese-20.mp3';
+import katakana21 from '../voiceclips/japanese/japanese-21.mp3';
+import katakana22 from '../voiceclips/japanese/japanese-22.mp3';
+import katakana23 from '../voiceclips/japanese/japanese-23.mp3';
+import katakana24 from '../voiceclips/japanese/japanese-24.mp3';
+import katakana25 from '../voiceclips/japanese/japanese-25.mp3';
+import katakana26 from '../voiceclips/japanese/japanese-26.mp3';
+import katakana27 from '../voiceclips/japanese/japanese-27.mp3';
+import katakana28 from '../voiceclips/japanese/japanese-28.mp3';
+import katakana29 from '../voiceclips/japanese/japanese-29.mp3';
+import katakana30 from '../voiceclips/japanese/japanese-30.mp3';
+import katakana31 from '../voiceclips/japanese/japanese-31.mp3';
+import katakana32 from '../voiceclips/japanese/japanese-32.mp3';
+import katakana33 from '../voiceclips/japanese/japanese-33.mp3';
+import katakana34 from '../voiceclips/japanese/japanese-34.mp3';
+import katakana35 from '../voiceclips/japanese/japanese-35.mp3';
+import katakana36 from '../voiceclips/japanese/japanese-36.mp3';
+import katakana37 from '../voiceclips/japanese/japanese-37.mp3';
+import katakana38 from '../voiceclips/japanese/japanese-38.mp3';
+import katakana39 from '../voiceclips/japanese/japanese-39.mp3';
+import katakana40 from '../voiceclips/japanese/japanese-40.mp3';
+import katakana41 from '../voiceclips/japanese/japanese-41.mp3';
+import katakana42 from '../voiceclips/japanese/japanese-42.mp3';
+import katakana43 from '../voiceclips/japanese/japanese-43.mp3';
+import katakana44 from '../voiceclips/japanese/japanese-44.mp3';
+import katakana45 from '../voiceclips/japanese/japanese-45.mp3';
+import katakana46 from '../voiceclips/japanese/japanese-46.mp3';
+import katakana47 from '../voiceclips/japanese/japanese-47.mp3';
+import katakana48 from '../voiceclips/japanese/japanese-48.mp3';
+import katakana49 from '../voiceclips/japanese/japanese-49.mp3';
+import katakana50 from '../voiceclips/japanese/japanese-50.mp3';
+import katakana51 from '../voiceclips/japanese/japanese-51.mp3';
+import katakana52 from '../voiceclips/japanese/japanese-52.mp3';
+import katakana53 from '../voiceclips/japanese/japanese-53.mp3';
+import katakana54 from '../voiceclips/japanese/japanese-54.mp3';
+import katakana55 from '../voiceclips/japanese/japanese-55.mp3';
+import katakana56 from '../voiceclips/japanese/japanese-56.mp3';
+import katakana57 from '../voiceclips/japanese/japanese-57.mp3';
+import katakana58 from '../voiceclips/japanese/japanese-58.mp3';
+import katakana59 from '../voiceclips/japanese/japanese-59.mp3';
+import katakana60 from '../voiceclips/japanese/japanese-60.mp3';
+import katakana61 from '../voiceclips/japanese/japanese-61.mp3';
+import katakana62 from '../voiceclips/japanese/japanese-62.mp3';
+import katakana63 from '../voiceclips/japanese/japanese-63.mp3';
+import katakana64 from '../voiceclips/japanese/japanese-64.mp3';
+import katakana65 from '../voiceclips/japanese/japanese-65.mp3';
+import katakana66 from '../voiceclips/japanese/japanese-66.mp3';
+import katakana67 from '../voiceclips/japanese/japanese-67.mp3';
+import katakana68 from '../voiceclips/japanese/japanese-68.mp3';
+import katakana69 from '../voiceclips/japanese/japanese-69.mp3';
+import katakana70 from '../voiceclips/japanese/japanese-70.mp3';
+import katakana71 from '../voiceclips/japanese/japanese-71.mp3';
+import katakana72 from '../voiceclips/japanese/japanese-72.mp3';
+import katakana73 from '../voiceclips/japanese/japanese-73.mp3';
+import katakana74 from '../voiceclips/japanese/japanese-74.mp3';
+import katakana75 from '../voiceclips/japanese/japanese-75.mp3';
+import katakana76 from '../voiceclips/japanese/japanese-76.mp3';
+import katakana77 from '../voiceclips/japanese/japanese-77.mp3';
+import katakana78 from '../voiceclips/japanese/japanese-78.mp3';
+import katakana79 from '../voiceclips/japanese/japanese-79.mp3';
+import katakana80 from '../voiceclips/japanese/japanese-80.mp3';
+import katakana81 from '../voiceclips/japanese/japanese-81.mp3';
+import katakana82 from '../voiceclips/japanese/japanese-82.mp3';
+import katakana83 from '../voiceclips/japanese/japanese-83.mp3';
+import katakana84 from '../voiceclips/japanese/japanese-84.mp3';
+import katakana85 from '../voiceclips/japanese/japanese-85.mp3';
+import katakana86 from '../voiceclips/japanese/japanese-86.mp3';
+import katakana87 from '../voiceclips/japanese/japanese-87.mp3';
+import katakana88 from '../voiceclips/japanese/japanese-88.mp3';
+import katakana89 from '../voiceclips/japanese/japanese-89.mp3';
+import katakana90 from '../voiceclips/japanese/japanese-90.mp3';
+import katakana91 from '../voiceclips/japanese/japanese-91.mp3';
+import katakana92 from '../voiceclips/japanese/japanese-92.mp3';
+import katakana93 from '../voiceclips/japanese/japanese-93.mp3';
+import katakana94 from '../voiceclips/japanese/japanese-94.mp3';
+import katakana95 from '../voiceclips/japanese/japanese-95.mp3';
+import katakana96 from '../voiceclips/japanese/japanese-96.mp3';
+import katakana97 from '../voiceclips/japanese/japanese-97.mp3';
+import katakana98 from '../voiceclips/japanese/japanese-98.mp3';
+import katakana99 from '../voiceclips/japanese/japanese-99.mp3';
+import katakana100 from '../voiceclips/japanese/japanese-100.mp3';
+import katakana101 from '../voiceclips/japanese/japanese-101.mp3';
+import katakana102 from '../voiceclips/japanese/japanese-102.mp3';
+import katakana103 from '../voiceclips/japanese/japanese-103.mp3';
+import katakana104 from '../voiceclips/japanese/japanese-104.mp3';
+import katakana105 from '../voiceclips/japanese/japanese-105.mp3';
+import katakana106 from '../voiceclips/japanese/japanese-106.mp3';
+import katakana107 from '../voiceclips/japanese/japanese-107.mp3';
+import katakana108 from '../voiceclips/japanese/japanese-108.mp3';
+import katakana109 from '../voiceclips/japanese/japanese-109.mp3';
 
 const Katakana = [
     {
@@ -603,19 +605,19 @@ const Katakana = [
         id: 83,
         name: "ジャ",
         latin: "ja",
-        sound: katakana91
+        sound: katakana83
     },
     {
         id: 84,
         name: "ジュ",
         latin: "ju",
-        sound: katakana92
+        sound: katakana84
     },
     {
         id: 85,
         name: "ジョ",
         latin: "jo",
-        sound: katakana93
+        sound: katakana85
     },
     {
         id: 86,

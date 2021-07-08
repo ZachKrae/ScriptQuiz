@@ -10,6 +10,7 @@ import Hiragana from './Hiragana.js'
 import Hebrew from './Hebrew.js'
 import Tibetan from './Tibetan.js'
 import Devanagari from './Devanagari.js'
+import Korean from './Korean.js';
 
 function SelectLang(props) {
     // const [showScores, setShowScores] = useState(false);
@@ -20,20 +21,21 @@ function SelectLang(props) {
 
     return (
         <div className="Game-box">
-            <h1>Select the Script You Want to Practice:</h1>
+            <h1>Select a Script to Practice:</h1>
             <div className="Game-grid">
                 <div>
-                    <button onClick={() => selectAnAlph(Arabic)}>Arabic</button>
-                    <button onClick={() => selectAnAlph(Armenian)}>Armenian</button>
-                    <button onClick={() => selectAnAlph(Devanagari)}>Devanagari</button>
-                    <button onClick={() => selectAnAlph(Georgian)}>Georgian (Mkhedruli)</button>
-                    <button onClick={() => selectAnAlph(Greek)}>Greek</button>
-                    <button onClick={() => selectAnAlph(Hebrew)}>Hebrew</button>
-                    <button onClick={() => selectAnAlph(Hiragana)}>Japanese (Hiragana)</button>
-                    <button onClick={() => selectAnAlph(Katakana)}>Japanese (Katakana)</button>
-                    <button onClick={() => selectAnAlph(Persian)}>Persian</button>
-                    <button onClick={() => selectAnAlph(RusCyrillic)}>Cyrillic (Russian)</button>
-                    <button onClick={() => selectAnAlph(Tibetan)}>Tibetan (Wylie)</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Arabic)}>Arabic</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Armenian)}>Armenian</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Devanagari)}>Devanagari</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Georgian)}>Georgian (Mkhedruli)</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Greek)}>Greek</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Hebrew)}>Hebrew</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Hiragana)}>Japanese (Hiragana)</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Katakana)}>Japanese (Katakana)</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Korean)}>Korean</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Persian)}>Persian</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(RusCyrillic)}>Cyrillic (Russian)</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Tibetan)}>Tibetan (Wylie)</button>
                 </div>
             </div>
         </div>

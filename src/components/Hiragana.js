@@ -1,110 +1,112 @@
-import hiragana1 from '../voiceclips/japanese/japanese-1-a.mp3';
-import hiragana2 from '../voiceclips/japanese/japanese-2-i.mp3';
-import hiragana3 from '../voiceclips/japanese/japanese-3-u.mp3';
-import hiragana4 from '../voiceclips/japanese/japanese-4-e.mp3';
-import hiragana5 from '../voiceclips/japanese/japanese-5-o.mp3';
-import hiragana6 from '../voiceclips/japanese/japanese-6-ka.mp3';
-import hiragana7 from '../voiceclips/japanese/japanese-7-ki.mp3';
-import hiragana8 from '../voiceclips/japanese/japanese-8-ku.mp3';
-import hiragana9 from '../voiceclips/japanese/japanese-9-ke.mp3';
-import hiragana10 from '../voiceclips/japanese/japanese-10-ko.mp3';
-import hiragana11 from '../voiceclips/japanese/japanese-11-kya.mp3';
-import hiragana12 from '../voiceclips/japanese/japanese-12-kyu.mp3';
-import hiragana13 from '../voiceclips/japanese/japanese-13-kyo.mp3';
-import hiragana14 from '../voiceclips/japanese/japanese-14-sa.mp3';
-import hiragana15 from '../voiceclips/japanese/japanese-15-shi.mp3';
-import hiragana16 from '../voiceclips/japanese/japanese-16-su.mp3';
-import hiragana17 from '../voiceclips/japanese/japanese-17-se.mp3';
-import hiragana18 from '../voiceclips/japanese/japanese-18-so.mp3';
-import hiragana19 from '../voiceclips/japanese/japanese-19-sha.mp3';
-import hiragana20 from '../voiceclips/japanese/japanese-20-shu.mp3';
-import hiragana21 from '../voiceclips/japanese/japanese-21-sho.mp3';
-import hiragana22 from '../voiceclips/japanese/japanese-22-ta.mp3';
-import hiragana23 from '../voiceclips/japanese/japanese-23-chi.mp3';
-import hiragana24 from '../voiceclips/japanese/japanese-24-tsu.mp3';
-import hiragana25 from '../voiceclips/japanese/japanese-25-te.mp3';
-import hiragana26 from '../voiceclips/japanese/japanese-26-to.mp3';
-import hiragana27 from '../voiceclips/japanese/japanese-27-cha.mp3';
-import hiragana28 from '../voiceclips/japanese/japanese-28-chu.mp3';
-import hiragana29 from '../voiceclips/japanese/japanese-29-cho.mp3';
-import hiragana30 from '../voiceclips/japanese/japanese-30-na.mp3';
-import hiragana31 from '../voiceclips/japanese/japanese-31-ni.mp3';
-import hiragana32 from '../voiceclips/japanese/japanese-32-nu.mp3';
-import hiragana33 from '../voiceclips/japanese/japanese-33-ne.mp3';
-import hiragana34 from '../voiceclips/japanese/japanese-34-no.mp3';
-import hiragana35 from '../voiceclips/japanese/japanese-35-nya.mp3';
-import hiragana36 from '../voiceclips/japanese/japanese-36-nyu.mp3';
-import hiragana37 from '../voiceclips/japanese/japanese-37-nyo.mp3';
-import hiragana38 from '../voiceclips/japanese/japanese-38-ha.mp3';
-import hiragana39 from '../voiceclips/japanese/japanese-39-hi.mp3';
-import hiragana40 from '../voiceclips/japanese/japanese-40-fu.mp3';
-import hiragana41 from '../voiceclips/japanese/japanese-41-he.mp3';
-import hiragana42 from '../voiceclips/japanese/japanese-42-ho.mp3';
-import hiragana43 from '../voiceclips/japanese/japanese-43-hya.mp3';
-import hiragana44 from '../voiceclips/japanese/japanese-44-hyu.mp3';
-import hiragana45 from '../voiceclips/japanese/japanese-45-hyo.mp3';
-import hiragana46 from '../voiceclips/japanese/japanese-46-ma.mp3';
-import hiragana47 from '../voiceclips/japanese/japanese-47-mi.mp3';
-import hiragana48 from '../voiceclips/japanese/japanese-48-mu.mp3';
-import hiragana49 from '../voiceclips/japanese/japanese-49-me.mp3';
-import hiragana50 from '../voiceclips/japanese/japanese-50-mo.mp3';
-import hiragana51 from '../voiceclips/japanese/japanese-51-mya.mp3';
-import hiragana52 from '../voiceclips/japanese/japanese-52-myu.mp3';
-import hiragana53 from '../voiceclips/japanese/japanese-53-myo.mp3';
-import hiragana54 from '../voiceclips/japanese/japanese-54-ya.mp3';
-import hiragana55 from '../voiceclips/japanese/japanese-55-yu.mp3';
-import hiragana56 from '../voiceclips/japanese/japanese-56-yo.mp3';
-import hiragana57 from '../voiceclips/japanese/japanese-57-ra.mp3';
-import hiragana58 from '../voiceclips/japanese/japanese-58-ri.mp3';
-import hiragana59 from '../voiceclips/japanese/japanese-59-ru.mp3';
-import hiragana60 from '../voiceclips/japanese/japanese-60-re.mp3';
-import hiragana61 from '../voiceclips/japanese/japanese-61-ro.mp3';
-import hiragana62 from '../voiceclips/japanese/japanese-62-rya.mp3';
-import hiragana63 from '../voiceclips/japanese/japanese-63-ryu.mp3';
-import hiragana64 from '../voiceclips/japanese/japanese-64-ryo.mp3';
-import hiragana65 from '../voiceclips/japanese/japanese-65-wa.mp3';
-import hiragana66 from '../voiceclips/japanese/japanese-66-wi.mp3';
-import hiragana67 from '../voiceclips/japanese/japanese-67-we.mp3';
-import hiragana68 from '../voiceclips/japanese/japanese-68-wo.mp3';
-import hiragana69 from '../voiceclips/japanese/japanese-69-n.mp3';
-import hiragana70 from '../voiceclips/japanese/japanese-70-ga.mp3';
-import hiragana71 from '../voiceclips/japanese/japanese-71-gi.mp3';
-import hiragana72 from '../voiceclips/japanese/japanese-72-gu.mp3';
-import hiragana73 from '../voiceclips/japanese/japanese-73-ge.mp3';
-import hiragana74 from '../voiceclips/japanese/japanese-74-go.mp3';
-import hiragana75 from '../voiceclips/japanese/japanese-75-gya.mp3';
-import hiragana76 from '../voiceclips/japanese/japanese-76-gyu.mp3';
-import hiragana77 from '../voiceclips/japanese/japanese-77-gyo.mp3';
-import hiragana78 from '../voiceclips/japanese/japanese-78-za.mp3';
-import hiragana79 from '../voiceclips/japanese/japanese-79-ji.mp3';
-import hiragana80 from '../voiceclips/japanese/japanese-80-zu.mp3';
-import hiragana81 from '../voiceclips/japanese/japanese-81-ze.mp3';
-import hiragana82 from '../voiceclips/japanese/japanese-82-zo.mp3';
-//83-85 use clips 91-93
-import hiragana86 from '../voiceclips/japanese/japanese-86-da.mp3';
-import hiragana87 from '../voiceclips/japanese/japanese-87-ji.mp3';
-import hiragana88 from '../voiceclips/japanese/japanese-88-dzu.mp3';
-import hiragana89 from '../voiceclips/japanese/japanese-89-de.mp3';
-import hiragana90 from '../voiceclips/japanese/japanese-90-do.mp3';
-import hiragana91 from '../voiceclips/japanese/japanese-91-ja.mp3';
-import hiragana92 from '../voiceclips/japanese/japanese-92-ju.mp3';
-import hiragana93 from '../voiceclips/japanese/japanese-93-jo.mp3';
-import hiragana94 from '../voiceclips/japanese/japanese-94-ba.mp3';
-import hiragana95 from '../voiceclips/japanese/japanese-95-bi.mp3';
-import hiragana96 from '../voiceclips/japanese/japanese-96-bu.mp3';
-import hiragana97 from '../voiceclips/japanese/japanese-97-be.mp3';
-import hiragana98 from '../voiceclips/japanese/japanese-98-bo.mp3';
-import hiragana99 from '../voiceclips/japanese/japanese-99-bya.mp3';
-import hiragana100 from '../voiceclips/japanese/japanese-100-byu.mp3';
-import hiragana101 from '../voiceclips/japanese/japanese-101-byo.mp3';
-import hiragana102 from '../voiceclips/japanese/japanese-102-pa.mp3';
-import hiragana103 from '../voiceclips/japanese/japanese-103-pi.mp3';
-import hiragana104 from '../voiceclips/japanese/japanese-104-pu.mp3';
-import hiragana105 from '../voiceclips/japanese/japanese-105-pe.mp3';
-import hiragana106 from '../voiceclips/japanese/japanese-106-po.mp3';
-import hiragana107 from '../voiceclips/japanese/japanese-107-pya.mp3';
-import hiragana108 from '../voiceclips/japanese/japanese-108-pyu.mp3';
-import hiragana109 from '../voiceclips/japanese/japanese-109-pyo.mp3';
+import hiragana1 from '../voiceclips/japanese/japanese-1.mp3';
+import hiragana2 from '../voiceclips/japanese/japanese-2.mp3';
+import hiragana3 from '../voiceclips/japanese/japanese-3.mp3';
+import hiragana4 from '../voiceclips/japanese/japanese-4.mp3';
+import hiragana5 from '../voiceclips/japanese/japanese-5.mp3';
+import hiragana6 from '../voiceclips/japanese/japanese-6.mp3';
+import hiragana7 from '../voiceclips/japanese/japanese-7.mp3';
+import hiragana8 from '../voiceclips/japanese/japanese-8.mp3';
+import hiragana9 from '../voiceclips/japanese/japanese-9.mp3';
+import hiragana10 from '../voiceclips/japanese/japanese-10.mp3';
+import hiragana11 from '../voiceclips/japanese/japanese-11.mp3';
+import hiragana12 from '../voiceclips/japanese/japanese-12.mp3';
+import hiragana13 from '../voiceclips/japanese/japanese-13.mp3';
+import hiragana14 from '../voiceclips/japanese/japanese-14.mp3';
+import hiragana15 from '../voiceclips/japanese/japanese-15.mp3';
+import hiragana16 from '../voiceclips/japanese/japanese-16.mp3';
+import hiragana17 from '../voiceclips/japanese/japanese-17.mp3';
+import hiragana18 from '../voiceclips/japanese/japanese-18.mp3';
+import hiragana19 from '../voiceclips/japanese/japanese-19.mp3';
+import hiragana20 from '../voiceclips/japanese/japanese-20.mp3';
+import hiragana21 from '../voiceclips/japanese/japanese-21.mp3';
+import hiragana22 from '../voiceclips/japanese/japanese-22.mp3';
+import hiragana23 from '../voiceclips/japanese/japanese-23.mp3';
+import hiragana24 from '../voiceclips/japanese/japanese-24.mp3';
+import hiragana25 from '../voiceclips/japanese/japanese-25.mp3';
+import hiragana26 from '../voiceclips/japanese/japanese-26.mp3';
+import hiragana27 from '../voiceclips/japanese/japanese-27.mp3';
+import hiragana28 from '../voiceclips/japanese/japanese-28.mp3';
+import hiragana29 from '../voiceclips/japanese/japanese-29.mp3';
+import hiragana30 from '../voiceclips/japanese/japanese-30.mp3';
+import hiragana31 from '../voiceclips/japanese/japanese-31.mp3';
+import hiragana32 from '../voiceclips/japanese/japanese-32.mp3';
+import hiragana33 from '../voiceclips/japanese/japanese-33.mp3';
+import hiragana34 from '../voiceclips/japanese/japanese-34.mp3';
+import hiragana35 from '../voiceclips/japanese/japanese-35.mp3';
+import hiragana36 from '../voiceclips/japanese/japanese-36.mp3';
+import hiragana37 from '../voiceclips/japanese/japanese-37.mp3';
+import hiragana38 from '../voiceclips/japanese/japanese-38.mp3';
+import hiragana39 from '../voiceclips/japanese/japanese-39.mp3';
+import hiragana40 from '../voiceclips/japanese/japanese-40.mp3';
+import hiragana41 from '../voiceclips/japanese/japanese-41.mp3';
+import hiragana42 from '../voiceclips/japanese/japanese-42.mp3';
+import hiragana43 from '../voiceclips/japanese/japanese-43.mp3';
+import hiragana44 from '../voiceclips/japanese/japanese-44.mp3';
+import hiragana45 from '../voiceclips/japanese/japanese-45.mp3';
+import hiragana46 from '../voiceclips/japanese/japanese-46.mp3';
+import hiragana47 from '../voiceclips/japanese/japanese-47.mp3';
+import hiragana48 from '../voiceclips/japanese/japanese-48.mp3';
+import hiragana49 from '../voiceclips/japanese/japanese-49.mp3';
+import hiragana50 from '../voiceclips/japanese/japanese-50.mp3';
+import hiragana51 from '../voiceclips/japanese/japanese-51.mp3';
+import hiragana52 from '../voiceclips/japanese/japanese-52.mp3';
+import hiragana53 from '../voiceclips/japanese/japanese-53.mp3';
+import hiragana54 from '../voiceclips/japanese/japanese-54.mp3';
+import hiragana55 from '../voiceclips/japanese/japanese-55.mp3';
+import hiragana56 from '../voiceclips/japanese/japanese-56.mp3';
+import hiragana57 from '../voiceclips/japanese/japanese-57.mp3';
+import hiragana58 from '../voiceclips/japanese/japanese-58.mp3';
+import hiragana59 from '../voiceclips/japanese/japanese-59.mp3';
+import hiragana60 from '../voiceclips/japanese/japanese-60.mp3';
+import hiragana61 from '../voiceclips/japanese/japanese-61.mp3';
+import hiragana62 from '../voiceclips/japanese/japanese-62.mp3';
+import hiragana63 from '../voiceclips/japanese/japanese-63.mp3';
+import hiragana64 from '../voiceclips/japanese/japanese-64.mp3';
+import hiragana65 from '../voiceclips/japanese/japanese-65.mp3';
+import hiragana66 from '../voiceclips/japanese/japanese-66.mp3';
+import hiragana67 from '../voiceclips/japanese/japanese-67.mp3';
+import hiragana68 from '../voiceclips/japanese/japanese-68.mp3';
+import hiragana69 from '../voiceclips/japanese/japanese-69.mp3';
+import hiragana70 from '../voiceclips/japanese/japanese-70.mp3';
+import hiragana71 from '../voiceclips/japanese/japanese-71.mp3';
+import hiragana72 from '../voiceclips/japanese/japanese-72.mp3';
+import hiragana73 from '../voiceclips/japanese/japanese-73.mp3';
+import hiragana74 from '../voiceclips/japanese/japanese-74.mp3';
+import hiragana75 from '../voiceclips/japanese/japanese-75.mp3';
+import hiragana76 from '../voiceclips/japanese/japanese-76.mp3';
+import hiragana77 from '../voiceclips/japanese/japanese-77.mp3';
+import hiragana78 from '../voiceclips/japanese/japanese-78.mp3';
+import hiragana79 from '../voiceclips/japanese/japanese-79.mp3';
+import hiragana80 from '../voiceclips/japanese/japanese-80.mp3';
+import hiragana81 from '../voiceclips/japanese/japanese-81.mp3';
+import hiragana82 from '../voiceclips/japanese/japanese-82.mp3';
+import hiragana83 from '../voiceclips/japanese/japanese-83.mp3';
+import hiragana84 from '../voiceclips/japanese/japanese-84.mp3';
+import hiragana85 from '../voiceclips/japanese/japanese-85.mp3';
+import hiragana86 from '../voiceclips/japanese/japanese-86.mp3';
+import hiragana87 from '../voiceclips/japanese/japanese-87.mp3';
+import hiragana88 from '../voiceclips/japanese/japanese-88.mp3';
+import hiragana89 from '../voiceclips/japanese/japanese-89.mp3';
+import hiragana90 from '../voiceclips/japanese/japanese-90.mp3';
+import hiragana91 from '../voiceclips/japanese/japanese-91.mp3';
+import hiragana92 from '../voiceclips/japanese/japanese-92.mp3';
+import hiragana93 from '../voiceclips/japanese/japanese-93.mp3';
+import hiragana94 from '../voiceclips/japanese/japanese-94.mp3';
+import hiragana95 from '../voiceclips/japanese/japanese-95.mp3';
+import hiragana96 from '../voiceclips/japanese/japanese-96.mp3';
+import hiragana97 from '../voiceclips/japanese/japanese-97.mp3';
+import hiragana98 from '../voiceclips/japanese/japanese-98.mp3';
+import hiragana99 from '../voiceclips/japanese/japanese-99.mp3';
+import hiragana100 from '../voiceclips/japanese/japanese-100.mp3';
+import hiragana101 from '../voiceclips/japanese/japanese-101.mp3';
+import hiragana102 from '../voiceclips/japanese/japanese-102.mp3';
+import hiragana103 from '../voiceclips/japanese/japanese-103.mp3';
+import hiragana104 from '../voiceclips/japanese/japanese-104.mp3';
+import hiragana105 from '../voiceclips/japanese/japanese-105.mp3';
+import hiragana106 from '../voiceclips/japanese/japanese-106.mp3';
+import hiragana107 from '../voiceclips/japanese/japanese-107.mp3';
+import hiragana108 from '../voiceclips/japanese/japanese-108.mp3';
+import hiragana109 from '../voiceclips/japanese/japanese-109.mp3';
 
 
 const Hiragana = [
@@ -604,19 +606,19 @@ const Hiragana = [
         id: 83,
         name: "じゃ",
         latin: "ja",
-        sound: hiragana91
+        sound: hiragana83
     },
     {
         id: 84,
         name: "じゅ",
         latin: "ju",
-        sound: hiragana92
+        sound: hiragana84
     },
     {
         id: 85,
         name: "じょ",
         latin: "jo",
-        sound: hiragana93
+        sound: hiragana85
     },
     {
         id: 86,
