@@ -59,7 +59,7 @@ export default function Game(props) {
 		}
 	};
 
-	//end game ans show score
+	//end game and show score
 	const finishGame = () => {
 		setShowScore(true);
 	}

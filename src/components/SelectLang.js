@@ -9,6 +9,7 @@ import Katakana from './Katakana.js'
 import Hiragana from './Hiragana.js'
 import Hebrew from './Hebrew.js'
 import Tibetan from './Tibetan.js'
+import Tifinagh from './Tifinagh.js'
 import Devanagari from './Devanagari.js'
 import Korean from './Korean.js';
 
@@ -36,6 +37,7 @@ function SelectLang(props) {
                     <button class="selecter-btn" onClick={() => selectAnAlph(Persian)}>Persian</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(RusCyrillic)}>Cyrillic (Russian)</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Tibetan)}>Tibetan (Wylie)</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Tifinagh)}>Tifinagh (Amazigh)</button>
                 </div>
             </div>
         </div>
