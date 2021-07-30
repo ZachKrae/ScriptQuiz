@@ -12,6 +12,7 @@ import Tibetan from './Tibetan.js'
 import Tifinagh from './Tifinagh.js'
 import Devanagari from './Devanagari.js'
 import Korean from './Korean.js';
+import Cherokee from './Cherokee.js';
 
 function SelectLang(props) {
     // const [showScores, setShowScores] = useState(false);
@@ -28,6 +29,7 @@ function SelectLang(props) {
                     <button class="selecter-btn" onClick={() => selectAnAlph(Arabic)}>Arabic</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Armenian)}>Armenian</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Devanagari)}>Devanagari</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Cherokee)}>Cherokee</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Georgian)}>Georgian (Mkhedruli)</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Greek)}>Greek</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Hebrew)}>Hebrew</button>
