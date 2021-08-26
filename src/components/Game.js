@@ -93,7 +93,8 @@ export default function Game(props) {
 						</div>
 						<div>Match the letter with its latin equivalent:</div>
 						<div className='question-text'>{props.alphabet[currentQuestion].name}</div>
-						{props.alphabet[currentQuestion].position && <div>({props.alphabet[currentQuestion].position} position)</div>}
+						{props.alphabet[currentQuestion].position && 
+							<div>({props.alphabet[currentQuestion].position} position)</div>}
 					</div>
 					<div className='answer-section'>
 						{shuffledAnswers}

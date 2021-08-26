@@ -14,6 +14,7 @@ import Devanagari from './Devanagari.js'
 import Korean from './Korean.js';
 import Cherokee from './Cherokee.js';
 import Thai from './Thai.js';
+import Ukrainian from './Ukrainian.js';
 
 function SelectLang(props) {
     // const [showScores, setShowScores] = useState(false);
@@ -31,6 +32,8 @@ function SelectLang(props) {
                     <button class="selecter-btn" onClick={() => selectAnAlph(Armenian)}>Armenian</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Devanagari)}>Devanagari</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Cherokee)}>Cherokee</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(RusCyrillic)}>Cyrillic (Russian)</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Ukrainian)}>Cyrillic (Ukrainian)</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Georgian)}>Georgian (Mkhedruli)</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Greek)}>Greek</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Hebrew)}>Hebrew</button>
@@ -38,7 +41,6 @@ function SelectLang(props) {
                     <button class="selecter-btn" onClick={() => selectAnAlph(Katakana)}>Japanese (Katakana)</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Korean)}>Korean</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Persian)}>Persian</button>
-                    <button class="selecter-btn" onClick={() => selectAnAlph(RusCyrillic)}>Cyrillic (Russian)</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Thai)}>Thai</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Tibetan)}>Tibetan (Wylie)</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Tifinagh)}>Tifinagh (Amazigh)</button>
