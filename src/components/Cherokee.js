@@ -586,7 +586,7 @@ const Cherokee = [
         id: 84, 
         name: 'Ᏼ', 
         latin: 'yv', 
-        sound: cherokee8
+        sound: cherokee84
      }
 ]
 
