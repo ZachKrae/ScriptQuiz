@@ -16,6 +16,7 @@ import Cherokee from './Cherokee.js';
 import Thai from './Thai.js';
 import Ukrainian from './Ukrainian.js';
 import Bulgarian from './Bulgarian.js';
+import Futhark from './ElderFuthark';
 
 function SelectLang(props) {
     // const [showScores, setShowScores] = useState(false);
@@ -42,6 +43,7 @@ function SelectLang(props) {
                     <button class="selecter-btn" onClick={() => selectAnAlph(Hiragana)}>Japanese (Hiragana)</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Katakana)}>Japanese (Katakana)</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Korean)}>Korean</button>
+                    <button class="selecter-btn" onClick={() => selectAnAlph(Futhark)}>Norse Runes (Elder Futhark)</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Persian)}>Persian</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Thai)}>Thai</button>
                     <button class="selecter-btn" onClick={() => selectAnAlph(Tibetan)}>Tibetan (Wylie)</button>
